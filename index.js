@@ -14,7 +14,7 @@ Hint: you may find it helpful to read up on and use the following jQuery methods
 $(function(){
     $('#js-shopping-list-form').submit(function(event) {
       event.preventDefault();
-      const listItem = $('.js-shopping-list-entry').val();
+      const listItem = $('#shopping-list-entry').val();
   
       $('#shopping-list-entry').val('');
   
